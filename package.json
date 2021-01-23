@@ -1,8 +1,8 @@
 {
   "name": "noteful-api-endpoint",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "App for Noteful Application that is used to store notes and categories them under folder name.",
+  "main": "./src/server.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
     "dev": "nodemon src/server.js",
@@ -15,7 +15,7 @@
     "postdeploy": "npm run migrate:production"
   },
   "keywords": [],
-  "author": "Talon",
+  "author": "Rohit Jain",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
